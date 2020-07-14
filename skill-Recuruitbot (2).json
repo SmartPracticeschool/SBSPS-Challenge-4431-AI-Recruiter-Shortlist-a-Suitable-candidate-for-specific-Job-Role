@@ -1,0 +1,1407 @@
+{
+  "intents": [
+    {
+      "intent": "Email",
+      "examples": [
+        {
+          "text": "sadarsh4@gmail.com"
+        },
+        {
+          "text": "Ashish@gmail.com"
+        },
+        {
+          "text": "meenuv@gmail.com",
+          "mentions": [
+            {
+              "entity": "email",
+              "location": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "yes, gangotrilingade@gmail.com",
+          "mentions": [
+            {
+              "entity": "email",
+              "location": [
+                5,
+                30
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My email id is sadarsh@gmail.com",
+          "mentions": [
+            {
+              "entity": "email",
+              "location": [
+                15,
+                32
+              ]
+            }
+          ]
+        },
+        {
+          "text": "vicky0114@gmail.com",
+          "mentions": [
+            {
+              "entity": "email",
+              "location": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My email is sunny@yahoo.com",
+          "mentions": [
+            {
+              "entity": "email",
+              "location": [
+                12,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "shwe@rediffmail.com",
+          "mentions": [
+            {
+              "entity": "email",
+              "location": [
+                0,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "apoorva@gmail.com",
+          "mentions": [
+            {
+              "entity": "email",
+              "location": [
+                0,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "apoorva200299@gmail.com",
+          "mentions": [
+            {
+              "entity": "email",
+              "location": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "text": "email id is xyz@hotmail.com",
+          "mentions": [
+            {
+              "entity": "email",
+              "location": [
+                12,
+                27
+              ]
+            }
+          ]
+        },
+        {
+          "text": "rohit0881@gmail.com"
+        },
+        {
+          "text": "Akki@gnail.com"
+        },
+        {
+          "text": "Snarl@gmail.com"
+        },
+        {
+          "text": "appy@gmail.com"
+        },
+        {
+          "text": "Bbb@bbb.com"
+        },
+        {
+          "text": "sunaina@gmail.com"
+        }
+      ],
+      "description": "candidates mail id"
+    },
+    {
+      "intent": "good-bye",
+      "examples": [
+        {
+          "text": "byeee"
+        },
+        {
+          "text": "ok bie"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "bieee"
+        },
+        {
+          "text": "bie"
+        },
+        {
+          "text": "ok thank you bie"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Name",
+      "examples": [
+        {
+          "text": "Shweta",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "My name is Apoorva Verma",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                11,
+                24
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I m Apoorva Verma",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                4,
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "text": "DOn",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Apoorva Verma",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Shweta Singh",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "This is Payal",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                8,
+                13
+              ]
+            }
+          ]
+        },
+        {
+          "text": "AAdarsh",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "text": "I am harshit",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                5,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anna",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anand Ahuja",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Harshit soni",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jonah Saji John",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "sheryl soni",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "text": "geetanshi sharma",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anisha",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Annelise Michel",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                15
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Rose mary",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                0,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "text": "good morning i m shweta singh",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                17,
+                29
+              ]
+            }
+          ]
+        },
+        {
+          "text": "hello i m shivani agrawal",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                10,
+                25
+              ]
+            }
+          ]
+        },
+        {
+          "text": "hello my name is gangotri lingade",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                17,
+                33
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hi My name is adarsh saji",
+          "mentions": [
+            {
+              "entity": "candidate_name",
+              "location": [
+                14,
+                25
+              ]
+            }
+          ]
+        }
+      ],
+      "description": "Candidate name"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "candidate_name",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sajal Vinayak Nagalkar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anand Ahuja",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anisha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Anna",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Annelise Michel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Apoorva",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Apoorva Verma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CHAVAN ANIKET UMESH",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "CHIRME PRADNYA SACHIN",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DANDADE ANIKET PRAKASH",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Deepanjaya Modak",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Doiphode Pratiksha Ajit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "DOn",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gaikwad Ganesh Bhimrao",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Gaikwad Rohan Suhas",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gangotri lingade",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "geetanshi sharma",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "harshit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Harshit soni",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Jonah Saji John",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Joshi Ninad Nitin",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kadam Aarti Satish",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Karde Priyanka Uday",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Kurane Ketaki Kishor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Lakhawade Atul Rajendra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Ligade Saurabh Suryakant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Payal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "payal gandhi",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rohan Kailas Dere",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rose mary",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ADHAV SNEHAL VILAS",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sheryl soni",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shivani agrawal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shweta Singh",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Snehal Ramdas Saikar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shraddha Shivaji Mali",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shweta",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Shweta Baburao Mundhe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shweta shinde",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "Greeting",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hello",
+          "synonyms": [
+            "hi",
+            "good morning",
+            "good afternoon",
+            "hey",
+            "hhiii",
+            "heyy",
+            "good evening",
+            "yo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "good-bye",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bye",
+          "synonyms": [
+            "bie",
+            "bieee",
+            "see you",
+            "thank you",
+            "ok bye",
+            "ok fine bye"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "pradnya.chirme@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "apoorva@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "apoorva200299@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gangotrilingade@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "meenuv@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sadarsh@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shwe@rediffmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sunny@yahoo.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vicky0114@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "xyz@hotmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ananya@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "meenuv898@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "payal.aug17@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shreyash@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "varad.arthamwar@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "archana.fegade@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "snehaladhav995@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sunilaghao2015@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "heenabaig317@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "komal.bhange@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mahendra.bhanage@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mrunmayi.bhat@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tushar.bhite@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PRATHAMESH.BHOSALE@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bhushan.chaudhari@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "vishal.chaudhari@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "hrishikesh.deshmukh@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Aniket.chavan@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "harish.chavan@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "aniket.dandade@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "gaurav.dhondge@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mohini.chavan@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shrokrushna.chavan@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "salman.dandu@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "deepanjaya.modak@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rohan.dere@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rushikesh.deshmukh@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "pratiksha.doiphode@mmit.edu.in",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ganeshgaikwad@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "shweta@gmail.com",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "anurag@gmail.com",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "choice",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "Yes it is",
+            "It is correct",
+            "Yes correct",
+            "of course",
+            "sure",
+            "definitely"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "no it is not",
+            "i would like to change it",
+            "No can i change it",
+            "it is not correct",
+            "it is not right",
+            "no thanks"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "skills",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank You For Your Responses $candidate_name . It was fun talking to you . As soon as our Recruiters have a look at your profile we will get back to you. See You SOON! :) BIE"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1594147672186",
+      "context": {
+        "skills": {
+          "": "<?input.text?>"
+        }
+      },
+      "conditions": "$experience",
+      "dialog_node": "node_7_1594733298547"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your name"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1593335306024",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1593335306045",
+      "previous_sibling": "handler_10_1593335306045"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            ""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1593335306024",
+      "event_name": "nomatch",
+      "dialog_node": "handler_3_1593335448344",
+      "previous_sibling": "handler_3_1593335306045"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1593335306024",
+      "context": {
+        "candidate_name": "@candidate_name"
+      },
+      "conditions": "@candidate_name",
+      "event_name": "input",
+      "dialog_node": "handler_10_1593335306045"
+    },
+    {
+      "type": "standard",
+      "title": "no previous experience",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Its. Okay Not a Problem :) . Lastly we would like to know about your skills and why should we hire you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593337600888",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1594733298547"
+      },
+      "conditions": "@choice:No",
+      "dialog_node": "node_1_1594495828523",
+      "previous_sibling": "node_5_1594147601454"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK! Great Welcome Aboard Can you take a picture of yourself so that we know you better!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593337600888",
+      "disabled": true,
+      "conditions": "@choice:Yes",
+      "dialog_node": "response_4_1593337636945",
+      "previous_sibling": "node_1_1594495828523"
+    },
+    {
+      "type": "standard",
+      "title": "previous experience",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Can You Tell Us About Your Previous Experiences(if many) In detail, the company name,what was your position there how much time did u work there so that we get a detailed knowledge about you :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593337600888",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_6_1594147672186"
+      },
+      "conditions": "@choice:Yes",
+      "dialog_node": "node_5_1594147601454"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Great $candidate_name lastly Please Enter Your Contact Number."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1594029695847",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1594029695853",
+      "previous_sibling": "handler_10_1594029695853"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1594029695847",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_10_1594029695853"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1593119677588",
+      "variable": "$email",
+      "dialog_node": "slot_8_1593335347067",
+      "previous_sibling": "slot_2_1593335306024"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1593119677588",
+      "variable": "$candidate_name",
+      "dialog_node": "slot_2_1593335306024",
+      "previous_sibling": "node_2_1593361948845"
+    },
+    {
+      "type": "standard",
+      "title": "details are not correct",
+      "output": {
+        "deleted": "<?context.remove('candidate_name')?><?context.remove('email')?>",
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem :)  you can fill your details again"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593119677588",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1593119677588"
+      },
+      "conditions": "@choice:No",
+      "dialog_node": "node_2_1593361948845",
+      "previous_sibling": "node_9_1593337600888"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1593119677588",
+      "variable": "$number",
+      "dialog_node": "slot_6_1594029695847",
+      "previous_sibling": "slot_8_1593335347067"
+    },
+    {
+      "type": "standard",
+      "title": "details are correct",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK! Great Welcome Aboard let me ask you some questions so that we know you better! Do you have any previous experience.?"
+              },
+              {
+                "text": "Great Welcome we would like to know more about you.Do you have any previous experience $candidate_name?"
+              },
+              {
+                "text": "We are pleased to meet you :) . We would like to know more about you . It would be great if you tell us do you have any previous experiences?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1593119677588",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@choice:Yes",
+      "dialog_node": "node_9_1593337600888",
+      "digress_out": "allow_all_never_return"
+    },
+    {
+      "type": "standard",
+      "title": "No interview",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ItsOk. I would Love to See You Again :) byeeeee <3"
+              },
+              {
+                "text": "No Problem See you Soon. Bie"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "conditions": "@choice:No",
+      "dialog_node": "node_7_1594117485840",
+      "previous_sibling": "node_10_1593119677588"
+    },
+    {
+      "type": "frame",
+      "title": "Yes Interview",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please confirm your details-  "
+              },
+              {
+                "text": "Name: $candidate_name"
+              },
+              {
+                "text": "Emai ID: $email"
+              },
+              {
+                "text": "Phone NO: $number"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Welcome",
+      "context": {},
+      "conditions": "@choice:Yes",
+      "dialog_node": "node_10_1593119677588",
+      "digress_out": "allow_all_never_return",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Thank you $candidate_name Please enter your email id"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1593335347067",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1593335347072",
+      "previous_sibling": "handler_1_1593335347072"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1593335347067",
+      "context": {
+        "email": "@email"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_1_1593335347072"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "deleted": "<?context.remove('candidate_name')?><?context.remove('email')?><?context.remove('number')?><?context.remove('experience')?><?context.remove('skills')?>",
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bie it was great talking to you <3"
+              },
+              {
+                "text": "See you soon :) :D"
+              },
+              {
+                "text": "Byeeee.. :D"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#good-bye",
+      "digress_in": "not_available",
+      "dialog_node": "Anything else",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1594147672186",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "experience",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great!!! good to know that . Just One last thing can you tell us about your skills and why should we hire you for a position in our company."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "experience": "<?input.text?>"
+      },
+      "conditions": "$number",
+      "digress_in": "not_available",
+      "dialog_node": "node_6_1594147672186",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_7_1594732576558"
+    },
+    {
+      "type": "standard",
+      "title": "greeting",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello Nice to meet you :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "@Greeting",
+      "digress_in": "not_available",
+      "dialog_node": "node_7_1594732576558",
+      "digress_out": "allow_all",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. Welcome To RecruitoBot .Would You like to give us a Interview?"
+              },
+              {
+                "text": "Hi i am Recuit-o-bot. I am a smart recuitment bot. I am here to help you go through your initial interview seamlessly. Hope You have a great Day.Would you like to continue?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "digress_in": "not_available",
+      "dialog_node": "Welcome",
+      "digress_out": "allow_all"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "appy@red"
+    },
+    {
+      "text": "hi"
+    },
+    {
+      "text": "yes"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "Recuruitbot",
+  "language": "en",
+  "description": ""
+}
